@@ -1,0 +1,14 @@
+Coletando dados do contêiner: cont_A
+PID no host (docker inspect): 53700
+Processo PID 1 interno: sleep
+Handle NS PID: pid:[4026533106]
+Handle NS MNT: mnt:[4026532304]
+Handle NS NET: net:[4026533108]
+
+Coletando dados do contêiner: cont_B
+PID no host (docker inspect): 53792
+Processo PID 1 interno: sleep
+Handle NS PID: pid:[4026533202]
+Handle NS MNT: mnt:[4026533199]
+Handle NS NET: net:[4026533204]
+
