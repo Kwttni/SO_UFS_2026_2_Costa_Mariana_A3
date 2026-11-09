@@ -1,0 +1,170 @@
+Iniciando Experimentos (C1 e C2 intercalados) com 20000000 iteracoes...
+Data/Hora: dom 08 nov 2026 20:40:17 -03
+
+---------------------------------------------
+Execução: Cenário C1 - Repetição 1
+* Limites cgroup efetuados
+cpu.max: 50000 100000
+memory.max: 268435456
+pids.max: 64
+
+* Metricas do Cgroup antes do processamento
+antes_usage_usec 39533
+antes_nr_throttled 0
+antes_throttled_usec 0
+
+* Processamento
+Status: Concluido
+Trabalho: 20000000
+Checksum: 2666666466666670000000
+Wall_time_s: 2.3581
+CPU_time_s: 1.1900
+Trabalho_por_s: 8481492.21
+Process_RSS_kb: 9420
+
+* Metricas do Cgroup depois do processamento
+depois_usage_usec 1249874
+depois_nr_throttled 24
+depois_throttled_usec 1163652
+memory.current: 6832128
+memory.peak: 10915840
+
+---------------------------------------------
+Execução: Cenário C2 - Repetição 1
+* Limites cgroup efetuados
+cpu.max: 100000 100000
+memory.max: 268435456
+pids.max: 64
+
+* Metricas do Cgroup antes do processamento
+antes_usage_usec 42815
+antes_nr_throttled 0
+antes_throttled_usec 0
+
+* Processamento
+Status: Concluido
+Trabalho: 20000000
+Checksum: 2666666466666670000000
+Wall_time_s: 1.1378
+CPU_time_s: 1.1344
+Trabalho_por_s: 17578415.57
+Process_RSS_kb: 9672
+
+* Metricas do Cgroup depois do processamento
+depois_usage_usec 1195634
+depois_nr_throttled 0
+depois_throttled_usec 0
+memory.current: 3031040
+memory.peak: 6709248
+
+---------------------------------------------
+Execução: Cenário C1 - Repetição 2
+* Limites cgroup efetuados
+cpu.max: 50000 100000
+memory.max: 268435456
+pids.max: 64
+
+* Metricas do Cgroup antes do processamento
+antes_usage_usec 38669
+antes_nr_throttled 0
+antes_throttled_usec 0
+
+* Processamento
+Status: Concluido
+Trabalho: 20000000
+Checksum: 2666666466666670000000
+Wall_time_s: 2.3672
+CPU_time_s: 1.2068
+Trabalho_por_s: 8448621.94
+Process_RSS_kb: 9956
+
+* Metricas do Cgroup depois do processamento
+depois_usage_usec 1264424
+depois_nr_throttled 24
+depois_throttled_usec 1156309
+memory.current: 2416640
+memory.peak: 7081984
+
+---------------------------------------------
+Execução: Cenário C2 - Repetição 2
+* Limites cgroup efetuados
+cpu.max: 100000 100000
+memory.max: 268435456
+pids.max: 64
+
+* Metricas do Cgroup antes do processamento
+antes_usage_usec 38449
+antes_nr_throttled 0
+antes_throttled_usec 0
+
+* Processamento
+Status: Concluido
+Trabalho: 20000000
+Checksum: 2666666466666670000000
+Wall_time_s: 1.1357
+CPU_time_s: 1.1311
+Trabalho_por_s: 17610373.33
+Process_RSS_kb: 9924
+
+* Metricas do Cgroup depois do processamento
+depois_usage_usec 1189223
+depois_nr_throttled 2
+depois_throttled_usec 1085
+memory.current: 2392064
+memory.peak: 7618560
+
+---------------------------------------------
+Execução: Cenário C1 - Repetição 3
+* Limites cgroup efetuados
+cpu.max: 50000 100000
+memory.max: 268435456
+pids.max: 64
+
+* Metricas do Cgroup antes do processamento
+antes_usage_usec 42834
+antes_nr_throttled 0
+antes_throttled_usec 0
+
+* Processamento
+Status: Concluido
+Trabalho: 20000000
+Checksum: 2666666466666670000000
+Wall_time_s: 2.3643
+CPU_time_s: 1.2130
+Trabalho_por_s: 8459309.21
+Process_RSS_kb: 10008
+
+* Metricas do Cgroup depois do processamento
+depois_usage_usec 1276361
+depois_nr_throttled 25
+depois_throttled_usec 1198362
+memory.current: 2080768
+memory.peak: 7217152
+
+---------------------------------------------
+Execução: Cenário C2 - Repetição 3
+* Limites cgroup efetuados
+cpu.max: 100000 100000
+memory.max: 268435456
+pids.max: 64
+
+* Metricas do Cgroup antes do processamento
+antes_usage_usec 42510
+antes_nr_throttled 0
+antes_throttled_usec 0
+
+* Processamento
+Status: Concluido
+Trabalho: 20000000
+Checksum: 2666666466666670000000
+Wall_time_s: 1.1504
+CPU_time_s: 1.1469
+Trabalho_por_s: 17385719.67
+Process_RSS_kb: 9908
+
+* Metricas do Cgroup depois do processamento
+depois_usage_usec 1208846
+depois_nr_throttled 0
+depois_throttled_usec 0
+memory.current: 2326528
+memory.peak: 6844416
