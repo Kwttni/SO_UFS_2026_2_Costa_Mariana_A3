@@ -1,7 +1,9 @@
 # Atividade 3 – Sistemas Operacionais: Virtualização, Contêineres, Namespaces e Cgroups
 
 **Discente:** Mariana Silva Costa  
+
 **Repositório:** https://github.com/Kwttni/SO_UFS_2026_2_Costa_Mariana_A3
+
 **Vídeo da apresentação:** https://drive.google.com/drive/folders/1D65GEG9HO9WvUHmQ9lEIRy-I1tJOuQ7e?usp=sharing
 
 ## Descrição
