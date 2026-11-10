@@ -15,14 +15,14 @@ docker run --rm --name teste_privilegios \
     --user 1000:1000 \
     --cap-drop=ALL \
     --security-opt=no-new-privileges:true \
-    -v "$PWD/dados_sinteticos:/dados:ro,Z" \
+    -v "$PWD/dados_demo:/dados:ro,Z" \
     python:3.12-slim \
     bash -c "
         echo '* Verificando Identidade (Menor Privilegio):'
         id
 
         echo -e '\n* Tentativa 1: Leitura (Espera-se SUCESSO):'
-        cat /dados/texto_sintetico.txt
+        cat /dados/texto.txt
 
         echo -e '\n* Tentativa 2: Escrita (Espera-se FALHA - Read-only file system):'
         touch /dados/novo_arquivo.txt || echo '=> Negação de escrita registrada com sucesso.'

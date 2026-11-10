@@ -1,11 +1,11 @@
 Iniciando Experimento - Parte D (Mount e Menor Privilegio)
-Data/Hora: dom 08 nov 2026 20:30:31 -03
+Data/Hora: ter 10 nov 2026 18:27:08 -03
 ---------------------------------------------
 * Verificando Identidade (Menor Privilegio):
 uid=1000 gid=1000 groups=1000
 
 * Tentativa 1: Leitura (Espera-se SUCESSO):
-cat: /dados/texto_sintetico.txt: No such file or directory
+Documento sintetico
 
 * Tentativa 2: Escrita (Espera-se FALHA - Read-only file system):
 touch: cannot touch '/dados/novo_arquivo.txt': Read-only file system
